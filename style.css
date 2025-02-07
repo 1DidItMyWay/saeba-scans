@@ -1,0 +1,97 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Homepage comic list */
+#comicsList {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#comicsList a {
+    display: block;
+    background-color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    border-radius: 5px;
+}
+
+#comicsList a:hover {
+    background-color: #e0e0e0;
+}
+
+/* Comic details page */
+#chaptersList {
+    list-style: none;
+    padding: 0;
+}
+
+#chaptersList li {
+    margin: 5px 0;
+}
+
+#chaptersList a {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+#chaptersList a:hover {
+    text-decoration: underline;
+}
+
+/* Login form for premium chapters */
+#loginForm {
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#loginForm label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#loginForm input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#loginForm button {
+    width: 100%;
+    padding: 7px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#loginForm button:hover {
+    background-color: #555;
+}
+
+/* Chapter images or canvases */
+.chapterImage, canvas {
+    max-width: 100%;
+    display: block;
+    margin: 10px auto;
+}
